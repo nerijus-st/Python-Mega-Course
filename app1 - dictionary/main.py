@@ -28,6 +28,7 @@ if type(output) == list:
     i = 1
     for definition in output:
         print(str(i) + ". " + definition)
+        i += 1
     print("")
 else:
     print(output)
