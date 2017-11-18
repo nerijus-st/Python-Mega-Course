@@ -22,9 +22,9 @@ def get_volcanoe_color(elev):
         return "darkred"
 
 fgp_volcanoes = folium.FeatureGroup(name="Volcanoes")
-for lt, ln, el in zip(lat, lon, elev):
+for lt, ln, nam, el in zip(lat, lon, name, elev):
     elev_color = get_volcanoe_color(int(el))
-    fgp_volcanoes.add_child(folium.CircleMarker(location=[lt, ln], popup=str(el) + "m", radius=8,
+    fgp_volcanoes.add_child(folium.CircleMarker(location=[lt, ln], popup=folium.Popup(str(nam) + ": " + str(el) + "m", parse_html=True), radius=10,
                                                 fill_color=elev_color, fill=True, color="white", fill_opacity=0.7))
 
 fgp_population = folium.FeatureGroup(name="Population")
@@ -35,8 +35,8 @@ fgp_population.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='u
                                                                   else 'darkblue' if 50000000 <= x['properties']['POP2005'] < 100000000
                                                                   else 'black'}))
 
-map.add_child(fgp_volcanoes)
 map.add_child(fgp_population)
+map.add_child(fgp_volcanoes)
 map.add_child(folium.LayerControl())
 
 map.save("Map1.html")
