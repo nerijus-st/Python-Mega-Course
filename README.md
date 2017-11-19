@@ -6,5 +6,6 @@ This is <i>Udemy.com</i> Python Mega Course with my built 10 Python applications
   <li>app1 - CLI interactive dictionary with word prediction</li>
   <li>app2 - Webmap using Folium and Pandas with 3 map layers</li>
   <li>app3 - Website blocker - blocks certain website during working hours</li>
-  <li>app4 - Simple static website built with Flask framework and uploaded to heroku</li> 
+  <li>app4 - Simple static website built with Flask framework and uploaded to heroku</li>
+  <li>app5 - Desktop application with CRUD functions (tkinter + sqlite3)</li>
 </ol>
