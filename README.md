@@ -9,4 +9,5 @@ This is <i>Udemy.com</i> Python Mega Course with my built 10 Python applications
   <li>app4 - Simple static website built with Flask framework and uploaded to heroku</li>
   <li>app5 - Desktop application with CRUD functions (tkinter + sqlite3)</li>
   <li>app6 - Motion detector with bokeh graph (cv2 + bokeh + pandas)</li>
+  <li>app7 - Web scrapping with Beautiful soup</li>
 </ol>
