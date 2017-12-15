@@ -11,4 +11,5 @@ This is <i>Udemy.com</i> Python Mega Course with my built 10 Python applications
   <li>app6 - Motion detector with bokeh graph (cv2 + bokeh + pandas)</li>
   <li>app7 - Web scrapping with Beautiful soup</li>
   <li>app8 - Flask app with bokeh stocks plot from pandas datareader</li>
+  <li>app9 - Data Collector Web App (Flask + postgres)</li>
 </ol>
