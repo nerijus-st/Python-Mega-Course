@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    color: #CFB53B ;
+    overflow: hidden;
+    text-align: center;
+    background-color: mistyrose;
+}
+
+.container h1{
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.container form{
+    margin: 20px;
+}
+
+.container input{
+    width: 250px;
+    height: 15px;
+    font-size: 15px;
+    margin: 2px;
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.container button{
+    width: 70px;
+    height: 40px;
+    margin: 4px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container p{
+    margin: 200px;
+}
+
+.message{
+    color: red;
+}
